@@ -1,0 +1,71 @@
+.orderHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderHeaderStyle {
+    text-align: left;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+.orderTableThStyle {
+    border: 1px solid rgb(221, 221, 221);
+    text-align: left;
+    padding: 8px;
+}
+
+.orderEditWrapper {
+    position: absolute;
+    background: white;
+    z-index: 2;
+    width: 50%;
+    height: 27%;
+    top: 20%;
+    right: 20%;
+    left: 20%;
+    border: 1px solid grey;
+    box-shadow: grey 1px 1px;
+    margin: auto;
+}
+
+.orderEditHeaderStyle {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    background: rgb(49, 104, 106);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.filterInputWrapper {
+    display: flex;
+    align-items: baseline;
+    margin: 0 10px;
+}
+
+.filterInputStyle {
+    margin-left: 2px;
+}
+
+.ProfileWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 35%;
+    height: 30px;
+    gap: 1%;
+    margin: 20px 10px 0;
+}
+
+.userTabWrapper {
+    background: #b2afab;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.userSelectedTabWrapper {
+    background: white;
+    padding: 10px;
+    font-weight: bold;
+}

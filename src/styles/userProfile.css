@@ -1,0 +1,85 @@
+.ProfileWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 35%;
+    height: 30px;
+    gap: 1%;
+    margin: 20px 10px 0;
+}
+
+.userTabWrapper {
+    background: #b2afab;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.userSelectedTabWrapper {
+    background: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.profileTableTh {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.profileLabelWrapper {
+    margin: 10px 0;
+}
+
+.profileLabelStyle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profileDetails {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin: 10px 0;
+}
+
+.editProfileButton {
+    margin: 20px;
+    box-shadow: none !important;
+    background: white !important;
+}
+
+.profileEditWrapper {
+    position: absolute;
+    background: white;
+    z-index: 2;
+    width: 35%;
+    height: 50%;
+    top: 20%;
+    right: 20%;
+    left: 20%;
+    border: 1px solid grey;
+    box-shadow: grey 1px 1px;
+    margin: auto;
+}
+
+.profileEditHeaderStyle {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    background: rgb(49, 104, 106);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.profileFieldWrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.2fr 1fr;
+    width: 80%;
+}
+
+.myProfileWrapper {
+    background: white;
+    padding: 2% 5%;
+    text-align: left;
+    margin: 10px;
+}

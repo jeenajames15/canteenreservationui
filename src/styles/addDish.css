@@ -1,0 +1,34 @@
+.addDishWrapper {
+    margin: 10% auto;
+    width: 50%;
+    background: white;
+    padding: 2%;
+    box-shadow: 2px 2px grey;
+    height: 65%;
+}
+
+.addDishHeader {
+    font-family: Roboto;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.addDishFieldWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.addDishFieldLabel {
+    margin-right: 10px;
+    min-width: 120px;
+}
+
+.addDishFileWrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.addDishButtonWrapper {
+    margin: 10px;
+}

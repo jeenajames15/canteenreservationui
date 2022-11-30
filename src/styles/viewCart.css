@@ -1,0 +1,47 @@
+.cartWarpper {
+    height: 100%;
+}
+
+.cartMenuWrapper {
+    display: flex;
+    height: 100%;
+}
+
+.cartLabel {
+    text-align: left; 
+    margin: 20px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cartListWrapper {
+    overflow-Y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.cartCardWrapper {
+    margin: 10px auto;
+    width: 100%;
+    text-align: left;
+}
+
+.cartButtonWrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.cartDecisionButton {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 10px auto;
+}
+
+.noOrderStyle {
+    margin: 10px;
+    font-weight: bold;
+}

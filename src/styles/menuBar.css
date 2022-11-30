@@ -1,0 +1,23 @@
+.menuBarWrapper {
+    height: 100%;
+    background: white;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s;
+}
+
+.menuBarSmallWrapper {
+    height: 100%;
+    background: white;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    transition: width 2s;
+}
+
+.menuBarButtonStyle {
+    text-decoration: none;
+    outline: none; 
+    padding: 20px;
+}
